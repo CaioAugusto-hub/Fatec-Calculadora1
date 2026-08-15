@@ -26,6 +26,15 @@ function subtraçao () {
 botaoSub.onclick = subtraçao
 
 
+const botaoDiv = document.getElementById('div')
 
+function divisao () {
+    const num1 =  Number(document.getElementById('n1').value)
+    const num2 = Number(document.getElementById('n2').value)
+    const result = document.getElementById('resultado')
 
+    result.textContent = num1 / num2 
+}
+
+botaoDiv.onclick = divisao
 
